@@ -1,0 +1,714 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h5 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.alert-dismissible {
+    z-index: 101;
+}
+
+.color-lightGreenOnlineThrifting {
+    color: #b0e5b3;
+}
+
+.color-GreenOnlineThrifting {
+    color: #03ac0e;
+}
+
+.card {
+    transition: 0.2s;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/* ---------- */
+/* ---------- */
+/* NAVIGATION */
+/* ---------- */
+/* ---------- */
+.navbar {
+    background-color: white;
+    height: 80px;
+    padding: 0;
+
+}
+
+.navbar-container-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-right {
+    margin-right: 0;
+}
+
+.footer {
+    background-color: #b0e5b3;
+    margin-top: auto;
+    color: #73767a !important;
+}
+
+
+.headerIndex {
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    background-color: white;
+    padding: 5px 0;
+}
+
+.brandSearchLoginNavbar {
+    display: grid;
+    grid-template-columns: 15% 6% 64% 15%;
+    padding: 10px 0 5px 0;
+}
+
+.brandSearchLoginNavbar .brandNav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.brandSearchLoginNavbar .brandNav a {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+    color: #03ac0e;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.brandSearchLoginNavbar .aboutUsNav {
+    color: #03ac0e;
+    align-self: center;
+}
+
+.brandSearchLoginNavbar .newPostRoute {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    color: #03ac0e;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.brandSearchLoginNavbar form {
+    display: flex;
+    grid-column-start: 3;
+    justify-content: space-between;
+}
+
+.brandSearchLoginNavbar form input {
+    display: inline-block;
+    width: 90%;
+    height: 30px;
+    /* border: 2px solid #03ac0e; */
+    border-radius: 12px;
+    vertical-align: middle;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.brandSearchLoginNavbar form button {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    background-color: #b0e5b3;
+    border: 2px solid #b0e5b3;
+    border-radius: 12px;
+    vertical-align: middle;
+    color: #03ac0e;
+    padding: 0;
+    margin-left: 10px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.brandSearchLoginNavbar form button:hover {
+    border: 2px solid #03ac0e;
+    vertical-align: middle;
+    background-color: #03ac0e;
+    color: white;
+}
+
+.authNav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.authNav form button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ffffff00;
+    border: 0;
+    transition: 0.1s;
+}
+
+.authNav form button:hover {
+    background-color: #ffffff00;
+    border: 0;
+    color: #03ac0e;
+    font-weight: bolder;
+}
+
+
+.authNav a {
+    display: flex;
+    color: #03ac0e;
+    width: min-content;
+    transition: 0.1s;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.authNav a:hover {
+    border: 0;
+    font-weight: bolder;
+}
+
+.categoryNavbar {
+    padding: 0 0 5px 0;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+.categoryNavbar .btn {
+    color: #73767a;
+    font-size: small;
+    border: none;
+}
+
+.categoryNavbar .categoryList {
+    grid-column-start: 2;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}
+
+.categoryNavbar .categoryList a {
+    padding: 0;
+    font-size: 14px;
+    color: #73767a;
+    align-self: center;
+}
+
+.categoryNavbar .categoryList a:hover {
+    color: #03ac0e;
+}
+
+.newPostRoute {
+    display: flex;
+    justify-content: center;
+}
+
+.newPostRoute a {
+    display: flex;
+    color: #03ac0e;
+    align-items: center;
+    transition: 0.1s;
+    font-size: 14px;
+}
+
+.newPostRoute a:hover {
+    font-weight: bolder;
+}
+
+.managePostRoute {
+    display: flex;
+    justify-content: center;
+}
+
+.managePostRoute a {
+    display: flex;
+    color: #03ac0e;
+    align-items: center;
+    transition: 0.1s;
+    font-size: 14px;
+}
+
+.managePostRoute a:hover {
+    font-weight: bolder;
+}
+
+/* ---------- */
+/* ---------- */
+/* INDEX PAGE */
+/* ---------- */
+/* ---------- */
+.dropdownSortingIndex button {
+    background-color: #b0e5b3;
+    color: #03ac0e;
+    border: 2px solid #b0e5b3;
+}
+
+.dropdownSortingIndex button:hover {
+    background-color: white;
+    color: #03ac0e;
+    border: 2px solid #03ac0e;
+}
+
+#gridIndex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 50px;
+}
+
+.card {
+    /* border: 2px solid #03ac0e; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    /* border: 0; */
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.cardIndex {
+    justify-self: center;
+    height: 350px;
+    width: 260px !important;
+    overflow: hidden;
+}
+
+
+.cardIndex img {
+    height: 195px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cardIndex .card-middle {
+    height: 50px;
+    background-color: #b0e5b3;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 0 0 2px 2px;
+}
+
+.cardIndex .card-middle h5 {
+    margin-left: 0;
+}
+
+.cardIndex .card-body {
+    height: min-content;
+    padding-top: 10px;
+}
+
+.cardIndex .card-body .card-title {
+    font-weight: 400;
+    /* https://stackoverflow.com/questions/3922739/limit-text-length-to-n-lines-using-css */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+/* ---------- */
+/* ---------- */
+/* SHOW PAGE */
+/* ---------- */
+/* ---------- */
+
+#gridShow {
+    display: grid;
+    grid-template-columns: 40% 34% 20%;
+    grid-column-gap: 3%;
+    grid-row-gap: 20px;
+    grid-template-rows: 250px;
+    margin: 0 20px;
+}
+
+.cardShowImage {
+    max-height: 265px;
+    max-width: 426px;
+    border: 0;
+    border-radius: 12px;
+    justify-self: baseline;
+}
+
+.cardShowImage img {
+    height: 265px !important;
+    width: 426px !important;
+    object-fit: contain;
+    object-position: center;
+}
+
+.cardShowTitle {
+    height: fit-content;
+    width: 100% !important;
+    overflow: hidden;
+    justify-self: center;
+}
+
+.cardShowTitle .card-header {
+    background-color: #b0e5b3;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    border: 0;
+}
+
+.cardShowTitle .card-body {
+    padding: 0;
+}
+
+.cardShowTitle .card-body-section {
+    border-top: 2px solid #b0e5b3;
+    height: 48px;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cardShowSeller {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.cardShowSeller .card {
+    width: 100%;
+    border: 0;
+}
+
+.cardShowSeller form,
+.cardShowSeller a {
+    width: 100%;
+    text-align: center;
+}
+
+.cardShowSeller form .btn,
+.cardShowSeller a .btn {
+    height: 40px;
+    width: 100%;
+}
+
+.cardShowSeller .card-body {
+    display: flex;
+    padding: 10px 20px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.cardShowSeller .card-body:hover {
+    color: white;
+    background-color: #b0e5b3;
+}
+
+.cardShowSeller .card-body h5 {
+    margin: 0;
+    font-size: 18px;
+    color: black;
+}
+
+.cardShowSeller .card-footer {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #b0e5b3;
+    height: 40px;
+    border: 0;
+    align-items: center;
+}
+
+.cardShowSeller .card-footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #03ac0e;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cardShowDescription {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.cardShowDescription h5 {
+    padding: 10px 20px;
+    background-color: #b0e5b3;
+    color: #03ac0e;
+    font-size: 16px;
+    text-align: center;
+}
+
+.cardShowDescription p {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.cardShowDescriptionCategories {
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+    gap: 20px;
+}
+
+.showPageTitlePost {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+/* ---------- */
+/* ---------- */
+/* NEW PAGE */
+/* ---------- */
+/* ---------- */
+
+#formNew .form-control,
+#formNew .form-select {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    color: #73767a;
+}
+
+#formNew {
+    color: #73767a;
+}
+
+#formNew h5 {
+    color: #03ac0e;
+}
+
+#formNew option,
+#formNew select,
+#formNew span,
+#formNew input {
+    color: #73767a;
+}
+
+#formNew button {
+    width: 100%;
+    background-color: #03ac0e;
+    border: none;
+}
+
+#formNew button:hover {
+    background-color: #b0e5b3;
+    color: #03ac0e;
+}
+
+#floatingDescription {
+    height: 200px;
+}
+
+/* ---------- */
+/* ---------- */
+/* LOGIN PAGE */
+/* ---------- */
+/* ---------- */
+#formLogin button {
+    background-color: #03ac0e;
+}
+
+#formLogin span {
+    font-size: 14px;
+    color: #73767a;
+}
+
+#formLogin span a {
+    color: #03ac0e;
+}
+
+/* ---------- */
+/* ---------- */
+/* MANAGE PAGE */
+/* ---------- */
+/* ---------- */
+
+#gridManage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 50px;
+}
+
+.cardManageSeller {
+    width: 25%;
+    height: 80px;
+    justify-self: center;
+    border: 0;
+}
+
+.cardManageSeller .card-body {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #03ac0e;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+    margin: 0;
+}
+
+.cardManageSeller .card-body:hover {
+    background-color: #b0e5b3;
+}
+
+.cardManageSeller .card-footer {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b0e5b3;
+    color: #03ac0e;
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    border: 0;
+}
+
+
+
+/* ---------- */
+/* ---------- */
+/* ABOUT PAGE */
+/* ---------- */
+/* ---------- */
+
+
+#aboutNav {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+#aboutNavBrand {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+    color: #03ac0e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#aboutNavBrand span {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#aboutNav .btn {
+    height: 40px;
+    background-color: #b0e5b3;
+    border: 2px solid #03ac0e;
+    color: #03ac0e;
+}
+
+#aboutNav .btn:hover {
+
+    background-color: #e5cbb0;
+}
+
+#aboutMain {
+    display: block;
+}
+
+#aboutMainHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #b0e2e5;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#aboutMainHeader h2 {
+    margin-top: 250px;
+    margin-bottom: 50px;
+    color: #03ac0e;
+}
+
+#aboutMain img {
+    width: 500px;
+    justify-self: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#desc {
+    margin-top: 200px;
+    text-align: justify;
+    color: #73767a;
+}
+
+#aboutFAQ {
+    color: #73767a;
+}
+
+#aboutFAQ h2 {
+    margin: 100px 0 100px 0;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: #03ac0e;
+}
+
+.faqQuestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #b0e5b3;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+    user-select: none;
+}
+
+.faqQuestion:hover {
+    background-color: #b0e5b3;
+    border: 2px solid #b0e5b3;
+}
+
+.faqAnswer {
+    text-align: justify;
+    padding: 20px;
+    border: 2px solid #dbdcdc;
+    border-radius: 10px;
+    user-select: none;
+    margin-bottom: 60px;
+    transition: max-height 0.35s ease-in;
+    max-height: 100vh;
+
+    overflow: hidden;
+}
+
+.faqAnswerHidden {
+    visibility: hidden;
+    max-height: 0;
+    transition: max-height 0.35s ease-out;
+    margin: 0;
+    overflow: hidden;
+}

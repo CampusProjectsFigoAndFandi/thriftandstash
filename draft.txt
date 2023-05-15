@@ -1,0 +1,5 @@
+-image upload(s) and delete
+-authorization
+
+
+-manage post
