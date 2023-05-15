@@ -21,7 +21,7 @@
 
     <footer class="footer py-2">
         <div class="container">
-            <span>&copy; OnlineThriftingStore</span>
+            <span>&copy; Thrift & Stash 2023</span>
         </div>
     </footer>
 

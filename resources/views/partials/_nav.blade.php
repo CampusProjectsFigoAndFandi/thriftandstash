@@ -4,7 +4,7 @@
             <span class="brandNav">
                 <a href="/posts"><span class="material-symbols-rounded m-auto">
                         store
-                    </span>OnlineThrifting</a>
+                    </span>Thrift & Stash</a>
             </span>
             <a href="/" class="aboutUsNav">About us</a>
             <form action="/posts">
