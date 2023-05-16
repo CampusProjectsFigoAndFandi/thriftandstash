@@ -21,7 +21,8 @@ class UserController extends Controller
             'name' => 'required',
             'username' => ['required', 'min:3', Rule::unique('users', 'username')],
             'email' => ['required', 'email', Rule::unique('users', 'email')],
-            'password' => ['required', 'confirmed', 'min:6']
+            'password' => ['required', 'confirmed', 'min:6'],
+            'cellnumber' => ['required',  'min:10']
         ]);
 
         // Hash Password
@@ -41,6 +42,7 @@ class UserController extends Controller
     }
     public function submitLogin(Request $request)
     {
+        // dd($request);
         $formFields = $request->validate([
             'username' => ['required', 'min:3'],
             'password' => ['required']

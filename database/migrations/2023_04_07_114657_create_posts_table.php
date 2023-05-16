@@ -25,7 +25,7 @@ return new class extends Migration
             $table->string('location');
             $table->string('categories');
             $table->longText('description');
-            $table->string('images')->nullable();
+            $table->json('images')->nullable();
             $table->timestamps();
         });
     }

@@ -13,7 +13,9 @@ class Post extends Model
     // no longer need protected $fillable 
     // because Model::unguard() is added to AppServiceProvider.php;
     // protected $fillable = ['title', 'categories', 'description', 'location', 'price'];
-
+    protected $casts = [
+        'images' => 'array'
+    ];
     public function scopeFilter($query, array $filters)
     {
         if ($filters['category'] ?? false) {

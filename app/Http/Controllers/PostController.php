@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\detail_viewer_post;
 use App\Models\Post;
 use App\Models\User;
 use Illuminate\Http\Request;
+use App\Models\detail_viewer_post;
+use CloudinaryLabs\CloudinaryLaravel\Facades\Cloudinary;
 
 class PostController extends Controller
 {
@@ -63,7 +64,7 @@ class PostController extends Controller
     // option 2 : directly use request() inside function without params
     {
         // dd($request);
-        // dd($request->file('images'));
+
         $formFields = $request->validate([
             'title' => 'required',
             'categories' => 'required',
@@ -73,8 +74,10 @@ class PostController extends Controller
         ]);
         $formFields['user_id'] = auth()->id();
 
-        if ($request->hasFile('images')) {
-            $formFields['images'] = $request->file('images')->store('images', 'public');
+        if ($request->file('images')) {
+            for ($i = 0; $i < count($request->file('images')); $i++) {
+                $formFields['images'][$i] =  $request->file('images')[$i]->storeOnCloudinary('thriftandstash')->getSecurePath();
+            }
         }
 
         $post = Post::create($formFields);
@@ -98,7 +101,7 @@ class PostController extends Controller
         if ($post->user_id != auth()->id()) {
             abort(403, "Anda tidak memiliki hak untuk itu!");
         };
-
+        $oldImages = $post['images'];
 
         // dd($request->file('images'));
         $formFields = $request->validate([
@@ -109,13 +112,15 @@ class PostController extends Controller
             'price' => ['required', 'numeric'],
         ]);
         $formFields['user_id'] = auth()->id();
-
-        if ($request->hasFile('images')) {
-            $formFields['images'] = $request->file('images')->store('images', 'public');
+        if ($request->file('images')) {
+            for ($i = 0; $i < count($request->file('images')); $i++) {
+                $formFields['images'][$i] =  $request->file('images')[$i]->storeOnCloudinary('thriftandstash')->getSecurePath();
+            }
         }
 
         $post->update($formFields);
-
+        $post['images'] = array_merge($post['images'], $oldImages);
+        $post->save();
         return redirect("/posts/" . $post->id)->with('success', 'Iklan berhasil diedit!');
     }
     public function delete(Post $post)

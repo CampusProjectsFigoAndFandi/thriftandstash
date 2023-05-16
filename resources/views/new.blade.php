@@ -71,7 +71,7 @@
                     @endError
                     <div class="mb-4">
                         <label for="formFileMultiple" class="form-label">Foto</label>
-                        <input name="images" class="form-control" type="file" id="formFileMultiple" multiple>
+                        <input name="images[]" class="form-control" type="file" id="formFileMultiple" multiple>
                     </div>
                     <button type="submit" class="btn btn-primary mb-4">Post</button>
                 </form>

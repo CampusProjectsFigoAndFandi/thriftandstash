@@ -7,25 +7,14 @@
             <div id="gridShow">
                 <div class="card cardShowImage">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="{{ $post->images ? asset('storage/' . $post->images) : asset('/images/imageCap.jpg') }}"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="{{ asset('/images/imageCap.jpg') }}" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="{{ asset('/images/imageCap.jpg') }}" class="d-block w-100" alt="...">
-                            </div>
+                            @if ($post->images)
+                                @foreach ($post->images as $image)
+                                    <div class="carousel-item active">
+                                        <img src="{{ $image }}" class="d-block w-100" alt="...">
+                                    </div>
+                                @endforeach
+                            @endif
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                             data-bs-slide="prev">
@@ -40,8 +29,8 @@
                     </div>
                 </div>
                 <!-- <div class="card cardShowImage">
-                                                                                                                                                                                                                                                                <img src="/images/imageCap.jpg" class="card-img-top" alt="...">
-                                                                                                                                                                                                                                                            </div> -->
+                                                                                                                                                                                                                                                                                    <img src="/images/imageCap.jpg" class="card-img-top" alt="...">
+                                                                                                                                                                                                                                                                                </div> -->
                 <div class="card cardShowTitle">
                     <div class="card-header">
                         <div class="showPageTitlePost w-100">{{ $post->title }}</div>

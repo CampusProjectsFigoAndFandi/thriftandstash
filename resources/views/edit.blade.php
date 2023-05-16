@@ -72,9 +72,14 @@
                     @endError
                     <div class="mb-4">
                         <label for="formFileMultiple" class="form-label">Foto</label>
-                        <input name="images" class="form-control" type="file" id="formFileMultiple" multiple>
-                        <img src="{{ $post->images ? asset('storage/' . $post->images) : asset('/images/imageCap.jpg') }}"
-                            class="img-thumbnail col-4 my-3" alt="...">
+                        <input name="images[]" class="form-control mb-3" type="file" id="formFileMultiple" multiple>
+                        @if ($post->images)
+                            @foreach ($post->images as $image)
+                                <div class="">
+                                    <img src="{{ $image }}" class="img-thumbnail col-4 my-1" alt="...">
+                                </div>
+                            @endforeach
+                        @endif
                     </div>
                     <button type="submit" class="btn btn-primary mb-4">Update</button>
                 </form>
