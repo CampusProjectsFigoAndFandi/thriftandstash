@@ -17,9 +17,9 @@
                         <form action="/register" method="POST" id="formLogin">
                             @csrf
                             <div class="form-floating my-4">
-                                <input type="text" name="name" class="form-control" id="floatingName"
-                                    placeholder="Name" value="{{ old('name') }}">
-                                <label for="floatingName">Name</label>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="name"
+                                    value="{{ old('name') }}">
+                                <label for="name">Name</label>
                                 @error('name')
                                     <div class="ms-1 mt-1 text-start text-danger">
                                         {{ $message }}
@@ -27,9 +27,9 @@
                                 @endError
                             </div>
                             <div class="form-floating my-4">
-                                <input type="email" name="email" class="form-control" id="floatingUsername"
-                                    placeholder="Username" value="{{ old('email') }}">
-                                <label for="floatingUsername">Email</label>
+                                <input type="email" name="email" class="form-control" id="email" placeholder="email"
+                                    value="{{ old('email') }}">
+                                <label for="email">Email</label>
                                 @error('email')
                                     <div class="ms-1 mt-1 text-start text-danger">
                                         {{ $message }}
@@ -47,9 +47,19 @@
                                 @endError
                             </div>
                             <div class="form-floating my-4">
-                                <input type="password" name="password" class="form-control" id="floatingPassword"
+                                <input type="text" name="cellnumber" class="form-control" id="cellnumber"
+                                    placeholder="cellnumber" value="{{ old('cellnumber') }}">
+                                <label for="cellnumber">WhatsApp Number</label>
+                                @error('cellnumber')
+                                    <div class="ms-1 mt-1 text-start text-danger">
+                                        {{ $message }}
+                                    </div>
+                                @endError
+                            </div>
+                            <div class="form-floating my-4">
+                                <input type="password" name="password" class="form-control" id="password"
                                     placeholder="Password" value="{{ old('password') }}">
-                                <label for="floatingPassword">Password</label>
+                                <label for="password">Password</label>
                                 @error('password')
                                     <div class="ms-1 mt-1 text-start text-danger">
                                         {{ $message }}

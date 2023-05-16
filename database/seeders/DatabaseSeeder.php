@@ -24,12 +24,14 @@ class DatabaseSeeder extends Seeder
         $user = User::factory()->create([
             'name' => 'Francesco Bagnaia',
             'username' => 'pecco63',
-            'email' => 'pecco@gmail.com'
+            'email' => 'pecco@gmail.com',
+            'cellnumber' => '11111111111'
         ]);
         $user2 = User::factory()->create([
             'name' => 'Vale Yellow',
             'username' => 'vr46',
-            'email' => 'vr46@gmail.com'
+            'email' => 'vr46@gmail.com',
+            'cellnumber' => '222222222222'
         ]);
 
         Post::factory(15)->create([

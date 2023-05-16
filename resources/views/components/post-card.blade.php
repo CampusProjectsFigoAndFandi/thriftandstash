@@ -5,11 +5,13 @@
         <div id="carousel{{ $post->id }}" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 {{-- <img src=" {{ asset('/images/imageCap.jpg') }}" class="card-img-top" alt="..."> --}}
-                @foreach ($post->images as $image)
-                    <div class="carousel-item active">
-                        <img src="{{ $image }}" class="card-img-top" alt="...">
-                    </div>
-                @endforeach
+                @if ($post->images)
+                    @foreach ($post->images as $image)
+                        <div class="carousel-item active">
+                            <img src="{{ $image }}" class="card-img-top" alt="...">
+                        </div>
+                    @endforeach
+                @endif
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carousel{{ $post->id }}"
                 data-bs-slide="prev">

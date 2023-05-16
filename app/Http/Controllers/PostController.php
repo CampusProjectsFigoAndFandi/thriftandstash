@@ -119,7 +119,9 @@ class PostController extends Controller
         }
 
         $post->update($formFields);
-        $post['images'] = array_merge($post['images'], $oldImages);
+        if ($oldImages) {
+            $post['images'] = array_merge($post['images'], $oldImages);
+        }
         $post->save();
         return redirect("/posts/" . $post->id)->with('success', 'Iklan berhasil diedit!');
     }
