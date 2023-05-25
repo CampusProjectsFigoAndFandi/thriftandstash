@@ -36,7 +36,6 @@ class PostController extends Controller
     {
         // dd($request);
         // dd($request->session()->getId());
-
         // increment the value of viewedTimes if the a user / guest open the page on a different session
         $detailViewerTable = detail_viewer_post::where(
             'sessionIdAndPostId',

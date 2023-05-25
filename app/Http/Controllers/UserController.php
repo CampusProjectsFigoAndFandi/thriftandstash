@@ -47,6 +47,7 @@ class UserController extends Controller
             'username' => ['required', 'min:3'],
             'password' => ['required']
         ]);
+        // dd($formFields);
         if (auth()->attempt($formFields)) {
             $request->session()->regenerate();
             return redirect('/posts')->with('success', 'Berhasil login!');
