@@ -100,7 +100,6 @@ class PostController extends Controller
         if ($post->user_id != auth()->id()) {
             abort(403, "Anda tidak memiliki hak untuk itu!");
         };
-        $oldImages = $post['images'];
 
         // dd($request->file('images'));
         $formFields = $request->validate([
@@ -110,6 +109,9 @@ class PostController extends Controller
             'location' => 'required',
             'price' => ['required', 'numeric'],
         ]);
+
+        $oldImages = $post['images'];
+
         $formFields['user_id'] = auth()->id();
         if ($request->file('images')) {
             for ($i = 0; $i < count($request->file('images')); $i++) {

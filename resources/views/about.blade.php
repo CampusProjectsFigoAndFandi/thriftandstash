@@ -29,7 +29,7 @@
                     About Us
                 </h2>
 
-                <img src="{{ asset('/images/about.png') }}" alt="">
+                <img src="{{ asset('/images/thrift.png') }}" alt="">
 
             </div>
             <div id="desc" class="col-8 offset-2">

@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-6 m-auto">
                     <div class="col-10 offset-2 m-auto d-flex justify-content-center">
-                        <img src="{{ asset('images/imageCap.jpg') }}" width="320px" height="320px" class="rounded-circle"
+                        <img src="{{ asset('images/LogoTS.png') }}" width="320px" height="320px" class="rounded-circle"
                             alt="">
                     </div>
                 </div>
