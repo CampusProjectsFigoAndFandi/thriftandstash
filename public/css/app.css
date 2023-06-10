@@ -87,6 +87,7 @@ a {
     text-align: center;
     color: #03ac0e;
     font-size: 20px;
+    gap: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -654,7 +655,6 @@ a {
 #aboutMain img {
     width: 500px;
     justify-self: center;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 #desc {

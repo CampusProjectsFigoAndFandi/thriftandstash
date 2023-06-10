@@ -2,9 +2,9 @@
     <div class="headerIndex sticky-top">
         <div class="brandSearchLoginNavbar">
             <span class="brandNav">
-                <a href="/posts"><span class="material-symbols-rounded m-auto">
-                        store
-                    </span>Thrift & Stash</a>
+                <a href="/posts">
+                    <img src="{{ asset('/images/thrift.png') }}" width="110px" alt="">
+                </a>
             </span>
             <a href="/" class="aboutUsNav">About us</a>
             <form action="/posts">

@@ -2,12 +2,8 @@
 @section('content')
     <main onscroll="aboutNavScroll()">
         <div id="aboutNav">
-            <div id="aboutNavBrand"><span class="material-symbols-rounded m-auto me-2">
-                    store
-                </span>
-                <span>
-                    Thrift & Stash
-                </span>
+            <div id="aboutNavBrand">
+                <img src="{{ asset('/images/thrift.png') }}" width="140px" alt="">
             </div>
             <a href="/posts">
                 <button class="btn btn-primary">
