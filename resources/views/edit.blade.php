@@ -71,7 +71,7 @@
                         </div>
                     @endError
                     <div class="mb-4">
-                        <label for="formFileMultiple" class="form-label">Foto</label>
+                        <label for="formFileMultiple" class="form-label">Foto, Maks 1MB</label>
                         <input name="images[]" class="form-control mb-3" type="file" id="formFileMultiple" multiple>
                         @if ($post->images)
                             @foreach ($post->images as $image)
