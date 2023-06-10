@@ -3,7 +3,7 @@
         <div class="brandSearchLoginNavbar">
             <span class="brandNav">
                 <a href="/posts">
-                    <img src="{{ asset('/images/thrift.png') }}" width="110px" alt="">
+                    <img src="{{ asset('/images/ThriftNew.png') }}" width="110px" alt="">
                 </a>
             </span>
             <a href="/" class="aboutUsNav">About us</a>
