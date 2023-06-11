@@ -29,8 +29,8 @@
                     </div>
                 </div>
                 <!-- <div class="card cardShowImage">
-                                                                                                                                                                                                                                                                                            <img src="/images/imageCap.jpg" class="card-img-top" alt="...">
-                                                                                                                                                                                                                                                                                        </div> -->
+                                                                                                                                                                                                                                                                                                <img src="/images/imageCap.jpg" class="card-img-top" alt="...">
+                                                                                                                                                                                                                                                                                            </div> -->
                 <div class="card cardShowTitle">
                     <div class="card-header">
                         <div class="showPageTitlePost w-100">{{ $post->title }}</div>
@@ -61,7 +61,7 @@
                         </div>
                         <div class="card-footer">
 
-                            <a href="https://wa.me/{{ $user->cellphone }}" target="_blank"> <span
+                            <a href="https://wa.me/{{ $user->cellnumber }}" target="_blank"> <span
                                     class="material-symbols-rounded">
                                     call
                                 </span></a>
