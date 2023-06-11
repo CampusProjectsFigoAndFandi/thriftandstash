@@ -29,26 +29,15 @@
 
             </div>
             <div id="desc" class="col-8 offset-2">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis consequatur perspiciatis in maiores
-                sed?
-                Voluptatum ex rerum unde sequi vero ducimus cumque quos harum mollitia iste, nam quae facilis officia.
-                Dolores, et earum sit ut officiis non minus vero quo maxime illum sapiente, amet accusantium, fuga
-                provident
-                obcaecati iste consequuntur distinctio. Minima magni qui dolore ab ut voluptate, doloribus nesciunt.
-                Amet sequi odio magni delectus voluptas molestiae, accusamus nihil debitis ullam enim saepe rerum fuga,
-                dolores soluta aspernatur sit repudiandae excepturi odit mollitia recusandae ratione. Reiciendis
-                quibusdam
-                quaerat sequi aliquid!
-                Saepe exercitationem iste sit, repellat doloremque facilis pariatur sequi adipisci vel necessitatibus
-                deleniti alias voluptatum, veniam, tempore blanditiis atque commodi quia numquam quis corporis. Cumque
-                blanditiis eveniet eaque assumenda nulla!
-                Repellat maiores voluptas repudiandae repellendus iusto culpa corporis iste, sit facilis saepe totam
-                dolor
-                dolorem eaque illo. Ea eos ullam, sit laboriosam ab saepe facere! Nam quisquam asperiores natus in.
-                Unde ipsam quo aperiam veniam dolorum tenetur ut eaque placeat inventore quis repellat autem nisi
-                libero,
-                mollitia laudantium eveniet sequi laborum quae exercitationem itaque perferendis numquam asperiores!
-                Commodi, pariatur rerum!
+                Thrift and Stash adalah website jual beli barang bekas yang dibuat oleh tim kami Achmad Affandi Fauzan dan
+                Mohammad Figo Yudhistira Wisesa sebagai tugas Projek di semester 4 dengan dosen pembimbing Pak Faried
+                Effendy.
+
+                Kami dapat menawarkan berbagai macam barang bekas berkualitas dengan harga terjangkau dan berkualitas, mulai
+                dari perangkat elektronik, properti, hingga kendaraan. Kami juga memiliki slogan Thrift. Find. Delight. yang
+                menggambarkan konsep kami untuk memberikan kepuasan kepada pengguna yang dapat menemukan barang bekas idaman
+                mereka dengan mudah dan hemat.
+
             </div>
         </div>
         <div id="aboutFAQ" class="col-6 offset-3">
@@ -57,151 +46,33 @@
             </h2>
             <div class="faqMain">
                 <div class="faqQuestion">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit? Lorem ipsum dolor sit amet consectetur
-                    adipisicing
-                    elit?
+                    Bagaimana proses transaksi di Thrift and Stash?
                     <span class="material-symbols-rounded">
                         expand_more
                     </span>
                 </div>
                 <div class="faqAnswer faqAnswerHidden">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptates neque consectetur accusamus
-                    sed
-                    ratione! Magnam qui repudiandae doloribus laudantium accusamus necessitatibus odit est ipsa, veniam,
-                    perspiciatis cum expedita repellendus.
-                    Vitae aspernatur vero assumenda nam sed quae aliquam rem optio fugiat quis consequatur labore, in
-                    corporis
-                    ipsam blanditiis cum minima dolorem saepe? Explicabo ex nam nostrum maiores modi, eos corrupti?
-                    Quam recusandae minus eius tempora, asperiores cum dicta debitis ducimus deleniti exercitationem
-                    inventore
-                    earum alias error est libero nostrum eum laudantium placeat ipsum harum! Dignissimos, distinctio
-                    perferendis? Error, temporibus reprehenderit?
-                    Est, totam sit. Recusandae reprehenderit nulla ratione aperiam! Perspiciatis, velit consectetur facilis
-                    cumque quo laborum, fugiat ab natus impedit deleniti dolorum at consequuntur esse nam assumenda labore
-                    iste
-                    porro doloribus!
+                    Terdapat tombol call pada setiap iklan, yang akan mengarahkan anda ke chat WhatsApp personal pemilik
+                    iklan. Anda akan merasakan transaksi yang fleksibel dan mudah.
                 </div>
             </div>
             <div class="faqMain">
                 <div class="faqQuestion">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit?
+                    Apa Visi dan Misi Thrift and Stash ?
                     <span class="material-symbols-rounded">
                         expand_more
                     </span>
                 </div>
                 <div class="faqAnswer faqAnswerHidden">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptates neque consectetur accusamus
-                    sed
-                    ratione! Magnam qui repudiandae doloribus laudantium accusamus necessitatibus odit est ipsa, veniam,
-                    perspiciatis cum expedita repellendus.
-                    Vitae aspernatur vero assumenda nam sed quae aliquam rem optio fugiat quis consequatur labore, in
-                    corporis
-                    ipsam blanditiis cum minima dolorem saepe? Explicabo ex nam nostrum maiores modi, eos corrupti?
-                    Quam recusandae minus eius tempora, asperiores cum dicta debitis ducimus deleniti exercitationem
-                    inventore
-                    earum alias error est libero nostrum eum laudantium placeat ipsum harum! Dignissimos, distinctio
-                    perferendis? Error, temporibus reprehenderit?
+                    Visi kami adalah menjadi website jual beli barang bekas terdepan di Indonesia yang dapat memberikan
+                    manfaat bagi lingkungan dan masyarakat.
+
+                    Misi kami adalah menyediakan platform yang mudah, aman, dan nyaman untuk bertransaksi barang bekas,
+                    serta memberikan pelayanan yang ramah dan profesional kepada pengguna.
 
                 </div>
             </div>
-            <div class="faqMain">
-                <div class="faqQuestion">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit? Lorem ipsum dolor sit amet consectetur
-                    adipisicing
-                    elit?
-                    <span class="material-symbols-rounded">
-                        expand_more
-                    </span>
-                </div>
-                <div class="faqAnswer faqAnswerHidden">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptates neque consectetur accusamus
-                    sed
-                    ratione! Magnam qui repudiandae doloribus laudantium accusamus necessitatibus odit est ipsa, veniam,
-                    perspiciatis cum expedita repellendus.
-                    Vitae aspernatur vero assumenda nam sed quae aliquam rem optio fugiat quis consequatur labore, in
-                    corporis
-                    ipsam blanditiis cum minima dolorem saepe? Explicabo ex nam nostrum maiores modi, eos corrupti?
-                    Quam recusandae minus eius tempora, asperiores cum dicta debitis ducimus deleniti exercitationem
-                    inventore
-                    earum alias error est libero nostrum eum laudantium placeat ipsum harum! Dignissimos, distinctio
-                    perferendis? Error, temporibus reprehenderit?
-                    Est, totam sit. Recusandae reprehenderit nulla ratione aperiam! Perspiciatis, velit consectetur facilis
-                    cumque quo laborum, fugiat ab natus impedit deleniti dolorum at consequuntur esse nam assumenda labore
-                    iste
-                    porro doloribus!
-                </div>
-            </div>
-            <div class="faqMain">
-                <div class="faqQuestion">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit?
-                    <span class="material-symbols-rounded">
-                        expand_more
-                    </span>
-                </div>
-                <div class="faqAnswer faqAnswerHidden">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptates neque consectetur accusamus
-                    sed
-                    ratione! Magnam qui repudiandae doloribus laudantium accusamus necessitatibus odit est ipsa, veniam,
-                    perspiciatis cum expedita repellendus.
-                    Vitae aspernatur vero assumenda nam sed quae aliquam rem optio fugiat quis consequatur labore, in
-                    corporis
-                    ipsam blanditiis cum minima dolorem saepe? Explicabo ex nam nostrum maiores modi, eos corrupti?
-                    Quam recusandae minus eius tempora, asperiores cum dicta debitis ducimus deleniti exercitationem
-                    inventore
-                    earum alias error est libero nostrum eum laudantium placeat ipsum harum! Dignissimos, distinctio
-                    perferendis? Error, temporibus reprehenderit?
 
-                </div>
-            </div>
-            <div class="faqMain">
-                <div class="faqQuestion">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit? Lorem ipsum dolor sit amet consectetur
-                    adipisicing
-                    elit?
-                    <span class="material-symbols-rounded">
-                        expand_more
-                    </span>
-                </div>
-                <div class="faqAnswer faqAnswerHidden">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptates neque consectetur accusamus
-                    sed
-                    ratione! Magnam qui repudiandae doloribus laudantium accusamus necessitatibus odit est ipsa, veniam,
-                    perspiciatis cum expedita repellendus.
-                    Vitae aspernatur vero assumenda nam sed quae aliquam rem optio fugiat quis consequatur labore, in
-                    corporis
-                    ipsam blanditiis cum minima dolorem saepe? Explicabo ex nam nostrum maiores modi, eos corrupti?
-                    Quam recusandae minus eius tempora, asperiores cum dicta debitis ducimus deleniti exercitationem
-                    inventore
-                    earum alias error est libero nostrum eum laudantium placeat ipsum harum! Dignissimos, distinctio
-                    perferendis? Error, temporibus reprehenderit?
-                    Est, totam sit. Recusandae reprehenderit nulla ratione aperiam! Perspiciatis, velit consectetur facilis
-                    cumque quo laborum, fugiat ab natus impedit deleniti dolorum at consequuntur esse nam assumenda labore
-                    iste
-                    porro doloribus!
-                </div>
-            </div>
-            <div class="faqMain">
-                <div class="faqQuestion">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit?
-                    <span class="material-symbols-rounded">
-                        expand_more
-                    </span>
-                </div>
-                <div class="faqAnswer faqAnswerHidden">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptates neque consectetur accusamus
-                    sed
-                    ratione! Magnam qui repudiandae doloribus laudantium accusamus necessitatibus odit est ipsa, veniam,
-                    perspiciatis cum expedita repellendus.
-                    Vitae aspernatur vero assumenda nam sed quae aliquam rem optio fugiat quis consequatur labore, in
-                    corporis
-                    ipsam blanditiis cum minima dolorem saepe? Explicabo ex nam nostrum maiores modi, eos corrupti?
-                    Quam recusandae minus eius tempora, asperiores cum dicta debitis ducimus deleniti exercitationem
-                    inventore
-                    earum alias error est libero nostrum eum laudantium placeat ipsum harum! Dignissimos, distinctio
-                    perferendis? Error, temporibus reprehenderit?
-
-                </div>
-            </div>
 
         </div>
     </main>
